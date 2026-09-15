@@ -1,0 +1,70 @@
+{
+  "spec_version": "2026-07-22.2",
+  "r_version": "4.5.1",
+  "seed_primary": 20260722,
+  "seed_benchmark": 20260723,
+  "masld_primary": {
+    "accession": "GSE126848",
+    "control_labels": ["healthy", "obese"],
+    "case_labels": ["NAFLD", "NASH"],
+    "population": "male-only overlap population",
+    "design": "~ group",
+    "sensitivity_design": "~ sex + group",
+    "min_count": 10,
+    "min_samples": 6
+  },
+  "masld_replication": {
+    "accession": "GSE130970",
+    "control_rule": "steatosis_grade == 0 & fibrosis_stage == 0 & ballooning_grade == 0",
+    "design": "~ sex + age_z + group",
+    "sensitivity_design": "~ group",
+    "min_count": 10,
+    "min_samples": 6,
+    "source_quantification": "tximport lengthScaledTPM counts"
+  },
+  "osa_primary": {
+    "accession": "GSE135917",
+    "platform": "GPL6244",
+    "population": "Study Group 1 case-control cohort",
+    "n_control": 8,
+    "n_osa": 10,
+    "design": "~ age_z + bmi_z + sex + group",
+    "sensitivity_design": "~ group",
+    "source_expression": "GEO series matrix; submitter RMA with quantile normalization and background correction",
+    "probe_to_gene_rule": "drop probes mapping to multiple symbols; retain highest-MAD probe per symbol"
+  },
+  "osa_intervention": {
+    "accession": "GSE135917",
+    "population": "Study Group 2 paired CPAP cohort",
+    "n_pairs": 24,
+    "design": "paired post-minus-pre"
+  },
+  "de_thresholds": {
+    "fdr": 0.05,
+    "abs_log2fc": 0.3
+  },
+  "network": {
+    "top_mad_genes": 5000,
+    "network_type": "signed",
+    "tom_type": "signed",
+    "min_module_size": 30,
+    "merge_cut_height": 0.25,
+    "hub_abs_kme": 0.8,
+    "hub_max_per_module": 20
+  },
+  "rule_replay": {
+    "n_permutations": 100000,
+    "tail": "upper",
+    "p_value_correction": "add_one",
+    "selection_rule": "effect_a * effect_b > 0",
+    "min_selected_genes": 3
+  },
+  "benchmarks": {
+    "empirical_positive": "GSE126848_vs_GSE130970",
+    "full_pipeline_null_iterations": 200,
+    "full_pipeline_null_inner_permutations": 2000,
+    "full_pipeline_null_nuisance_estimation": "GSE135917_Freedman_Lane_age_bmi_sex_residual_permutation",
+    "phenotype_null_iterations": 2000,
+    "alpha": 0.05
+  }
+}

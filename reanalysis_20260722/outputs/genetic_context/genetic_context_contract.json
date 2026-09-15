@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "analysis": "nine-trait FinnGen genetic-correlation context",
+  "method": "pleioh2g::ldsc_rg with 200 jackknife blocks",
+  "checks": {
+    "nine_traits": true,
+    "all_inputs_unique_hapmap3": true,
+    "all_pairwise_results": true,
+    "osa_masld_unique": true,
+    "finite_primary_rg": true,
+    "primary_p_consistent": true
+  },
+  "limitations": ["All nine traits are FinnGen-derived, so participant overlap is substantial; cross-trait LDSC intercepts are retained in the full RDS.", "The genetic analysis provides disease-level context and does not validate a tissue-specific transcriptomic pathway.", "BMI, T2D and hypertension are correlated cardiometabolic traits; myopia and migraine are descriptive non-cardiometabolic comparators, not assumed-null negative controls."],
+  "files": {
+    "manifest": "data/derived/genetic_context_source_manifest.csv",
+    "input_audit": "genetic_context_input_audit.csv",
+    "heritability": "genetic_context_heritability.csv",
+    "all_rg": "genetic_context_all_pairwise_rg.csv",
+    "target_rg": "genetic_context_target_pairs.csv",
+    "primary_rg": "genetic_context_OSA_NAFLD_primary.csv",
+    "full_object": "genetic_context_ldsc_full.rds"
+  }
+}

@@ -1,0 +1,3 @@
+estimator,selected_genes,selected_r,comparison_note
+limma,79,0.651,observed-statistic sensitivity; full executed output file not present in this RC build environment
+DESeq2,78,0.63,Jaccard selected-set overlap with limma = 0.869

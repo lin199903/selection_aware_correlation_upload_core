@@ -1,0 +1,2 @@
+selection_masld,selection_ah,evaluation_masld,evaluation_ah,selection_selected_genes,evaluation_common_genes,selected_genes_estimable,evaluation_r,reference_mean,reference_sd,reference_q95,percentile,p_upper_add_one,z,valid_draws
+GSE89632,GSE142530,GSE130970,GSE143318,3098,16144,2820,0.2371,0.2279,0.0285,0.2739,62.2,0.3783,0.325,2000

@@ -1,0 +1,2 @@
+"Analysis","PlannedIterations","ValidIterations","FailedIterations","ObservedCommonGenes","ObservedSignificantOSAGenes","ObservedEligiblePoolGenes","ObservedSameSignSelectedGenes","ObservedSelectedPearson","NullMeanPearson","NullSDPearson","NullQ025","NullMedian","NullQ975","UpperTailCount","PUpperAddOne","MonteCarloSE"
+"OSA_Freedman_Lane_full_selection_replay",2000,2000,0,12958,0,110,52,0.550719414222321,0.667822679885097,0.0837136363761404,0.461861523809425,0.672817056280877,0.805467315051238,1843,0.921539230384808,0.00601117887668869

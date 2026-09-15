@@ -1,0 +1,9 @@
+# R CMD check log (selcorr 0.1.1, rc2 rebuild)
+# environment: R 4.5.1 (2025-06-13 ucrt), Windows 11 x64
+
+* checking for unstated dependencies in 'tests' ... OK
+* checking tests ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes ... OK
+* checking re-building of vignette outputs ... OK
+Status: OK

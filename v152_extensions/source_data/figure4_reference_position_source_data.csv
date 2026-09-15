@@ -1,0 +1,8 @@
+workflow,layer,tissue_relation,direction,role,observed_r,reference_mean,reference_sd,critical_95,percentile,selected_fraction,valid_draws
+OSA-MASLD,cross-disease/cross-tissue,cross-tissue,MASLD anchored -> OSA replayed,primary empirical example,0.5507194142,0.6678226799,0.0837136364,0.791,8.0,0.4727272727272727,2000
+MASLD->AH GSE142530,cross-disease/same-tissue,liver-liver,MASLD anchored -> AH replayed,primary liver-only,0.4648,0.6401,0.0637,0.7248,1.4,0.449,2000
+MASLD->AH GSE143318,cross-disease/same-tissue,liver-liver,MASLD anchored -> AH replayed,series,0.4852,0.6493,0.0543,0.7191,0.7,0.431,2000
+MASLD->AH GSE28619,cross-disease/same-tissue,liver-liver,MASLD anchored -> AH replayed,series,0.5347,0.5538,0.0326,0.6116,31.2,0.519,2000
+MASLD->AH GSE155907,cross-disease/same-tissue,liver-liver,MASLD anchored -> AH replayed,series,0.6611,0.6857,0.032,0.7366,25.1,0.468,2000
+AH GSE142530->MASLD,cross-disease/same-tissue,liver-liver,AH anchored -> MASLD replayed,reverse orientation,0.2688,0.3461,0.1242,0.5112,26.5,0.528,2000
+MASLD-MASLD,same-disease/same-tissue,liver-liver,GSE126848 anchored -> GSE135251 replayed,same-disease boundary,0.650662344,0.7342459766,0.084244676,0.86665795,15.5,0.4030612244897959,2000

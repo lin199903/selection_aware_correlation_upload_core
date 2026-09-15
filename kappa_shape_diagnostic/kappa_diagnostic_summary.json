@@ -1,0 +1,46 @@
+{
+  "primary_OSA_MASLD": {
+    "B": 2000,
+    "r_obs": 0.550719414222321,
+    "replay_r_mean": 0.6678226798850966,
+    "P_r": 0.9215392303848076,
+    "kappa_anchor_obs": 0.7626461149652507,
+    "kappa_test_obs": 0.7620242013814635,
+    "kappa_test_replay_mean": 0.7937491640483073,
+    "kappa_anchor_replay_mean": 0.8280980333665059,
+    "corrected_reference": 0.581154796693071,
+    "q_obs": 0.947629473861464,
+    "replay_q_mean": 1.0185298936462144,
+    "replay_q_median": 1.0250507732127234,
+    "replay_q_sd": 0.11960492594871815,
+    "P_shape_corrected": 0.7886056971514243,
+    "q_percentile": 0.2115
+  },
+  "stress_MASLD_MASLD": {
+    "B": 2000,
+    "r_obs": 0.650662344006854,
+    "replay_r_mean": 0.7342459766479562,
+    "P_r": 0.8450774612693653,
+    "kappa_anchor_obs": 0.8312929265324892,
+    "kappa_test_obs": 0.8122132188882479,
+    "kappa_test_replay_mean": 0.7855183535482109,
+    "kappa_anchor_replay_mean": 0.8809703749349987,
+    "corrected_reference": 0.6751871036979848,
+    "q_obs": 0.9636770910510445,
+    "replay_q_mean": 1.0658552041252864,
+    "replay_q_median": 1.0265688690869756,
+    "replay_q_sd": 0.146448143877513,
+    "P_shape_corrected": 0.7776111944027986,
+    "q_percentile": 0.2225
+  },
+  "stress_reverse": {
+    "B": 2000,
+    "r_obs": null,
+    "replay_r_mean": 0.7652766311845064,
+    "kappa_anchor_obs": 0.807506636755762,
+    "kappa_test_obs": 0.8082755139771989,
+    "corrected_reference": 0.6526878418637627,
+    "q_obs": null,
+    "note": "no per-draw gene effects archived; per-draw q distribution unavailable"
+  }
+}

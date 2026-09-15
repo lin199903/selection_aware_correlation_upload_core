@@ -1,0 +1,6 @@
+workflow,tissue_relation,platform_relation,direction,role,selected_fraction,reference_mean,reference_sd
+GSE89632 -> GSE142530,liver-liver,RNA-seq -> RNA-seq,MASLD anchored -> AH replayed,primary,0.449,0.6401,0.0637
+GSE89632 -> GSE28619,liver-liver,microarray -> microarray,MASLD anchored -> AH replayed,series,0.519,0.5538,0.0326
+GSE89632 -> GSE143318,liver-liver,RNA-seq -> RNA-seq,MASLD anchored -> AH replayed,series,0.431,0.6493,0.0543
+GSE89632 -> GSE155907,liver-liver,RNA-seq -> RNA-seq,MASLD anchored -> AH replayed,series,0.468,0.6857,0.032
+GSE142530 -> GSE89632,liver-liver,RNA-seq -> microarray,AH anchored -> MASLD replayed,reverse orientation,0.528,0.3461,0.1242

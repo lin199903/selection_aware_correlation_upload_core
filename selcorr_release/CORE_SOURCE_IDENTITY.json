@@ -1,0 +1,18 @@
+{
+  "compared_to": "verified selcorr 0.1.0 source tarball",
+  "files_compared": 36,
+  "R_man_vignettes_NAMESPACE_byte_identical": true,
+  "rc2_build": {
+    "environment": "R 4.5.1 (2025-06-13 ucrt), Windows 11 x64",
+    "build": "R CMD build selcorr",
+    "check": "R CMD check --no-manual -> Status: OK",
+    "check_log": "selcorr_release/R_CHECK_LOG_v0.1.1_RC2.txt",
+    "artifact": "selcorr_release/selcorr_0.1.1_VERIFIED_RC2.tar.gz"
+  },
+  "rc2_delta": [
+    "version 0.1.0 -> 0.1.1",
+    "recovery regression test + 16-cell recovery fixture",
+    "NEWS entry",
+    "removed hard-coded archive path from the archive-dependent tests"
+  ]
+}

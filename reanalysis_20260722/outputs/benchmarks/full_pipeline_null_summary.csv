@@ -1,0 +1,2 @@
+"Benchmark","OuterIterationsPlanned","OuterIterationsValid","FailedIterations","InnerPermutationsPerIteration","Alpha","Rejections","RejectionRate","Wilson95Lower","Wilson95Upper","AlphaInsideWilson95","MeanEligiblePoolGenes","MeanSameSignSelectedGenes"
+"OSA_Freedman_Lane_conditional_full_pipeline_null",200,200,0,2000,0.05,39,0.195,0.146055205344005,0.255440443746127,FALSE,110,54.555

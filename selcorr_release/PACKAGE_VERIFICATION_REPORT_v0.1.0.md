@@ -55,7 +55,7 @@ with the stored summaries (tolerance 1e-6 where the same draws are used).
 | MASLD–MASLD frozen summary | r = 0.651, mean 0.734, P 0.845 | matches `positive_control_summary.csv` | PASS |
 | MASLD–MASLD 12 archived pairs | stored null mean and P per pair | recomputed from each pair's draws (1e-6) | PASS |
 | MASLD–AH series (5 workflows) | stored null mean, SD, P per workflow | recomputed from each workflow's draws (1e-6) | PASS |
-| Cross-cohort evaluation | r = 0.2371, centre 0.2279, P = 0.3783 | reproducible from archived inputs | PASS |
+| Cross-cohort evaluation | r = 0.2371, mean 0.0034, P = 0.0735 | reproducible from archived inputs under the corrected intercept-only evaluation null | PASS |
 
 ## 5. Determinism and persistence
 

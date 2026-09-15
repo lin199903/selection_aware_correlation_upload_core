@@ -1,5 +1,7 @@
 {
-  "files_scanned": 370,
+  "release": "reproducibility-v1.0.0-rc3",
+  "version_coupled_public_extension_path": false,
+  "internal_manuscript_version_policy": "provenance_only",
   "secret_pattern_hits": [],
   "internal_risk_filenames_outside_archive": []
 }

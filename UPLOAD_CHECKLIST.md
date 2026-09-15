@@ -1,10 +1,10 @@
 # Final upload checklist
 
-- [x] Replace/recheck the reconstructed `selcorr` 0.1.1 RC with a freshly built and checked artifact
-      (`selcorr_release/selcorr_0.1.1_VERIFIED_RC2.tar.gz`; `R CMD check` Status: OK; log in `selcorr_release/`).
-- [x] Remove the hard-coded archive path from the archive-dependent tests (portability defect found in review).
-- [x] Synchronize final v152 SI and record its file name, SHA-256 and status in `SUBMISSION_SNAPSHOT.json`.
-- [ ] Change release version from `reproducibility-v1.0.0-rc2` to `reproducibility-v1.0.0` in README/CITATION/snapshot.
-- [ ] Add final GitHub release URL to CITATION/README.
+- [x] Verify `selcorr` 0.1.1 build/check artifact (`selcorr_release/selcorr_0.1.1_VERIFIED_RC2.tar.gz`; R CMD check Status: OK).
+- [x] Remove the archive-dependent hard-coded local path from package tests.
+- [x] Decouple public repository paths and release identity from internal manuscript versions.
+- [x] Record the current v153 manuscript/SI hashes as provenance-only snapshot metadata.
+- [ ] Change release version from `reproducibility-v1.0.0-rc3` to `reproducibility-v1.0.0` at final release.
+- [ ] Add final GitHub release URL / archival DOI to citation metadata when available.
 - [ ] Run `python verify_release.py` from a fresh checkout.
-- [ ] Create final SHA256 manifest and release ZIP from a fresh git checkout.
+- [ ] Create final SHA-256 manifest and release archive from a fresh git checkout.

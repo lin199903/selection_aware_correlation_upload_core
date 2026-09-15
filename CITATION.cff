@@ -15,9 +15,9 @@ authors:
   - family-names: "Gong"
     given-names: "Xianqiong"
 type: software
-version: "reproducibility-v1.0.0-rc2"
-date-released: "2026-09-14"
-repository-code: "https://github.com/lin199903/masld-osa-revision-code_v2"
+version: "reproducibility-v1.0.0-rc3"
+date-released: "2026-09-15"
+repository-code: "https://github.com/lin199903/selection_aware_correlation_upload_core"
 keywords:
   - transcriptomics
   - gene selection

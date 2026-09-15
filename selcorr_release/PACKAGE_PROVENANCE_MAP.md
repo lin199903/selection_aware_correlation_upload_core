@@ -36,7 +36,7 @@ equivalence, the known differences, and how the equivalence was verified.
 
 | Production script | Package function | Algorithmic equivalence | Known differences | Verification |
 |---|---|---|---|---|
-| `learned/v151_9_MASLD_AH/14_cross_cohort_selection_evaluation.R` | `validate()` | Same semantics: the selected gene set comes from the original selection data, the evaluation data take no part in selection, the gene set is externally fixed in evaluation, the evaluation reference does not replay the original selection, and the two p values are never combined | Cohort pairs are user inputs rather than hard-coded | Archived cross-cohort result (evaluation r = 0.2371, reference centre = 0.2279, upper-tail p = 0.3783) is reproducible from the archived inputs |
+| `learned/v151_9_MASLD_AH/14_cross_cohort_selection_evaluation.R` | `validate()` | Same semantics: the selected gene set comes from the original selection data, the evaluation data take no part in selection, the gene set is externally fixed in evaluation, the evaluation reference does not replay the original selection, and the two p values are never combined | Cohort pairs are user inputs rather than hard-coded | Archived cross-cohort result (evaluation r = 0.2371, reference mean = 0.0034, upper-tail p = 0.0735) is reproducible from the archived inputs under the intercept-only evaluation null used by `validate()` |
 
 ## Deliberate non-goals in 0.1
 

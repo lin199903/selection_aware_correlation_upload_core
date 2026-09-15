@@ -1,3 +1,3 @@
 estimator,selected_genes,selected_r,comparison_note
-limma,79,0.6507,observed-statistic sensitivity; full executed output archived in paper_extensions/deseq2_estimator_sensitivity/
-DESeq2,78,0.6296,Jaccard selected-set overlap with limma = 0.8690; full executed output archived in paper_extensions/deseq2_estimator_sensitivity/
+limma,79,0.6507,observed-statistic sensitivity; full executed output retained in the full release archive tier
+DESeq2,78,0.6296,Jaccard selected-set overlap with limma = 0.8690; full executed output retained in the full release archive tier

@@ -1,0 +1,17 @@
+{
+  "study_title": "Selecting genes for agreement changes the null reference for transcriptomic correlation",
+  "repository_release_candidate": "v152.0-rc2",
+  "snapshot_date": "2026-09-14",
+  "main_manuscript_filename": "MAIN_MANUSCRIPT_v152_6_FIRST_SCREEN_HARDENED.md",
+  "main_manuscript_sha256": "d4a66442864481c487e14ae221af838946ffb41124565b95c7675c487178972d",
+  "main_manuscript_status": "current v152.6 first-screen hardened; three SI cross-references added and the selcorr tarball name aligned during the correspondence/publication audit",
+  "supplementary_information_filename": "SUPPLEMENTARY_INFORMATION_v152_6_REVIEWER_STRENGTHENED_FINAL.md",
+  "supplementary_information_sha256": "558eb7aaed8c9d8a5e494be7a9df209fb4ecd56b64dfc4d0a2f0c2c39623ba92",
+  "supplementary_information_status": "SYNCED_WITH_V152_NOTES_11_AND_14 \u2014 liver-only series and independent evaluation merged into Note 11; real-covariance recovery grid merged into Note 14; no new Note numbering",
+  "release_status": "RC_NOT_FINAL",
+  "hard_stops": [
+    "final release tag and manifest regeneration from a fresh checkout"
+  ],
+  "public_release_tag": "reproducibility-v1.0.0-rc2",
+  "internal_manuscript_version_role": "provenance_only"
+}

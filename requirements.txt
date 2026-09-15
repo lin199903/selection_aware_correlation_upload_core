@@ -1,0 +1,6 @@
+# Python dependencies used by the repository's analysis and figure scripts.
+# The archived analyses were run under Python 3.12.
+matplotlib>=3.8
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11

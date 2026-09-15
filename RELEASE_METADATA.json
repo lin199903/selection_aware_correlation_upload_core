@@ -1,0 +1,11 @@
+{
+  "repository_identity": "selection-aware-correlation-reproducibility",
+  "release_tag_candidate": "reproducibility-v1.0.0-rc2",
+  "software_package": {
+    "name": "selcorr",
+    "version": "0.1.1"
+  },
+  "internal_manuscript_version": "v152.6",
+  "internal_manuscript_version_role": "provenance only; not a public release identifier",
+  "release_status": "RC; rc1 hard stops closed in rc2; final tag pending release-identifier bump, final release URL and fresh-checkout manifest/zip"
+}

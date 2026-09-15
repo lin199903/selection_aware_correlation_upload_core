@@ -1,0 +1,43 @@
+# Third-party/raw workspaces not redistributed
+**/data/raw/
+**/data/derived/
+**/temp_fulltext/
+
+# Binary work objects are ignored by default, with explicit public exceptions below
+*.rds
+*.RData
+!companion_study/calibration_sample_full_permutation.rds
+!reanalysis_20260722/outputs/composition_sensitivity/MCPcounter_all_scores.rds
+!reanalysis_20260722/outputs/genetic_context/genetic_context_ldsc_full.rds
+!reanalysis_20260722/outputs/phenotype_null_exchangeability/wild_bootstrap_distribution.rds
+!reanalysis_20260722/outputs/phenotype_null_hub_grid/hub_grid_distributions.rds
+!reanalysis_20260722/outputs/programs/cohort_program_scores.rds
+!reanalysis_20260722/outputs/simulation/simulation_screen_raw_replicates.rds
+
+# Redundant/temporary outputs
+selcorr/build/
+*.tiff
+*.tif
+*.log
+.Rhistory
+.Rproj.user/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.zip
+
+# Compressed third-party/raw sources should not be committed accidentally
+*.gz
+# Public release artifact: the verified selcorr tarball IS part of the release
+!selcorr_release/selcorr_0.1.1_VERIFIED_RC2.tar.gz
+
+# Ephemeral outputs from public-input runtime checks; not part of the frozen release.
+runtime_regenerated/
+
+.DS_Store
+Thumbs.db
+*.Rcheck/
+.Rhistory
+.RData
+runtime_regenerated/

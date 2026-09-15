@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or archive, please cite the associated article and repository release."
+title: "Selecting genes for agreement changes the null reference for transcriptomic correlation"
+authors:
+  - family-names: "Lin"
+    given-names: "Junyi"
+  - family-names: "Sun"
+    given-names: "Yingying"
+  - family-names: "Li"
+    given-names: "Xin"
+  - family-names: "Zhong"
+    given-names: "Jiahong"
+  - family-names: "Chen"
+    given-names: "Linyi"
+  - family-names: "Gong"
+    given-names: "Xianqiong"
+type: software
+version: "reproducibility-v1.0.0-rc2"
+date-released: "2026-09-14"
+repository-code: "https://github.com/lin199903/masld-osa-revision-code_v2"
+keywords:
+  - transcriptomics
+  - gene selection
+  - post-selection inference
+  - selected correlation
+  - residual permutation
+  - selcorr
+  - reproducibility
